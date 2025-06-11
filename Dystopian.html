@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+</head>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-top w3-large w3-padding"
+     style="z-index:3;width:300px;font-weight:bold;background-color:#800000;" id="mySidebar">
+    <h3 style="color: white;" class="w3-padding-64"><b><br>Contents</b></h3>
+
+  <div class="w3-bar-block">
+    <a style="color: white;" href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Book of knowledge</a> 
+    <a style="color: white;" href="#Notes" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Notes</a> 
+    <a style="color: white;" href="#SeriesandSimilarnovels" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Series and Similar novels</a> 
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Vica and Judy</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h1 class="w3-jumbo"><b>Dystopian</b></h1>
+    <h1 style="color: #800000;" class="w3-xxxlarge"><b>Book of knowledge.</b></h1>
+    <hr style="width:50px;border:5px solid #800000" class="w3-round">
+    <h1 style="font-weight:bold">Distric Tribute Parade Look</h1>
+    <p  class="w3-xlarge">A Fashion Design Exploration Based On The Hunger Games</p>
+  </div>
+  
+  <!-- Photo grid (modal) -->
+  <div class="w3-row-padding">
+    <div class="w3-half">
+      <img src="https://i.postimg.cc/JnGG4nwN/1.jpg" style="width:75%" onclick="onClick(this)" alt="District 1">
+      <img src="https://i.postimg.cc/Cxzt7pVv/4-2.jpg" style="width:75%" onclick="onClick(this)" alt="District 4">
+      <img src="https://i.postimg.cc/yYWv4hrx/11.jpg" style="width:75%" onclick="onClick(this)" alt="District 11">
+      <img src="https://i.postimg.cc/fbsPNt9P/12.jpg" style="width:75%" onclick="onClick(this)" alt="District 12">
+    </div>
+
+   <div class="w3-half">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+      <div style="background-color: #a6a6a6; padding: 10px; margin-bottom: 15px; ; font-weight:bold; ">
+  <p class="w3-xlarge" style="color: white; font-weight:bold; text-align: center; font-style: italic"> “spray-painted silver, in tasteful tunics glittering with jewels.”</p>
+</div>
+
+<div style="margin-bottom: 10px;">
+  <ul class="w3-xlarge" style="text-align: left; list-style-type: disc; padding-left: 20px;">
+    <li>makes luxury items for the Capitol</li>
+    <li>can turn graphite into diamond</li>
+    <li>career tribute</li>
+  </ul>
+</div>
+
+<div>
+  <p class="w3-xlarge"> Dressed elegantly, with jewels and nice fabric.</p>
+</div>
+
+<br>
+
+<div>
+    <br>
+    <br>
+    <br>
+    <br>
+      <div style="background-color: #134735; padding: 10px; margin-bottom: 15px; ; font-weight:bold; ">
+  <p class="w3-xlarge" style="color: white; font-weight:bold; text-align: center; font-style: italic"> “The fish–shaped loaf tinted green with seaweed.”</p>
+      </div>
+</div>
+
+<div style="margin-bottom: 10px;">
+  <ul class="w3-xlarge" style="text-align: left; list-style-type: disc; padding-left: 20px;">
+    <li>fishing</li>
+    <li>career tribute</li>
+  </ul>
+</div>
+
+
+<div>
+  <p class="w3-xlarge">  Fishtail dress with green silk represent fishing.
+</p>
+</div>
+
+
+<div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+      <div style="background-color: #f4d8af; padding: 10px; margin-bottom: 15px; ; font-weight:bold; ">
+  <p class="w3-xlarge" style="color: black; font-weight:bold; text-align: center; font-style: italic">  “The crescent moon roll dotted with seeds”</p>
+      </div>
+</div>
+
+
+<div style="margin-bottom: 10px;">
+  <ul class="w3-xlarge" style="text-align: left; list-style-type: disc; padding-left: 20px;">
+    <li>agriculture</li>
+  </ul>
+</div>
+
+
+<div>
+  <p class="w3-xlarge"> Cottage vibe dress with work convenient belt represent agriculture.</p>
+</div>
+
+<div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+      <div style="background-color:#9a160f; padding: 10px; margin-bottom: 15px; ; font-weight:bold; ">
+  <p class="w3-xlarge" style="color: white; font-weight:bold; text-align: center; font-style: italic"> “I’m in a simple black unitard that covers me from ankle to neck. Shiny
+ leather boots lace up to my knees. But it’s the fluttering cape made of streams of orange, yellow, and red and the matching headpiece that define this costume.”</p>
+      </div>
+</div>
+
+
+<div style="margin-bottom: 10px;">
+  <ul class="w3-xlarge" style="text-align: left; list-style-type: disc; padding-left: 20px;">
+    <li>coal mining</li>
+  </ul>
+</div>
+
+<div>
+  <p class="w3-xlarge"> All black bodysuit with leather boots and cape, a bit rebel represent the girl on fire.</p>
+</div>
+</div>
+
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <!-- Notes -->
+  <div class="w3-container" id="Notes" style="margin-top:75px">
+    <h1 style="color: #800000;" class="w3-xxxlarge"><b>Notes.</b></h1>
+    <hr style="width:50px;border:5px solid #800000" class="w3-round">
+    <p class="w3-xlarge" style="font-weight:bold; font-style: italic;"> "Still, just throwing me a bread was an enormous kindness that would have surely resulted in a beating if discovered. I couldn’t explain his action."</p>
+    <p class="w3-xlarge">Katniss does not believe people have kindness with no reason. But not every human’s action needs to have a reason to do, we just follow our heart and instinct to do what we want to do.
+    </p>
+    <h1 style="color: #800000;">Thoughts:</h1>
+    <p class="w3-xlarge">I have several times to accept the people help me with no reason. I realize I am a lucky girl when I have trouble. Of course, they are not for getting some benefits from me. Nowadays, I become one of these people who have kindness.
+    </p>
+    <hr>
+    <p class="w3-xlarge" style="font-weight:bold; font-style: italic;">“In the Capitol, they call it the Launch Room. In the districts, it's referred to as the Stockyard. The place animals go before slaughter.”</p>
+    <p class="w3-xlarge">I'm stunned when I read this line—it's so true and so cruel. I can really feel Katniss’s emotions. She’s being pushed to become that animal waiting to be slaughtered. And the butcher isn’t just the other tributes, it’s the Capitol—or even the whole country of Panem. She’s forced to perform her own death in front of everyone, like an animal being killed for the table. She’s just there for their entertainment. What’s even scarier is how nobody seems to think that making teenagers kill each other is a terrible thing.</p>
+    <h1 style="color: #800000;">Thoughts:</h1>
+    <p class="w3-xlarge">
+    Sometimes I feel like I’ve been in situations that are just like the arena. Some people try to hurt others, some try to protect, and some just stay quiet and do nothing. And I always feel confused about this. Why do people choose to fight and form sides instead of talking and trying to understand each other?
+  </div>
+  
+  <!-- Series and Similar novels -->
+  <div class="w3-container" id="SeriesandSimilarnovels" style="margin-top:75px">
+  <h1 style="color: #800000;" class="w3-xxxlarge"><b>Series and Similar novels.</b></h1>
+    <hr style="width:50px;border:5px solid #800000" class="w3-round">
+    <div class="w3-row-padding">
+    <h1 class="w3-xlarge" style="font-weight:bold;">Hunger Games by Suzanne Collins</h1>
+    <br>
+ <!-- 圖片 1 -->
+  <div class="w3-third w3-container w3-margin-bottom">
+    <img src="https://m.media-amazon.com/images/I/71un2hI4mcL._SY466_.jpg" alt="The Hunger Games 飢餓遊戲 (2008)" style="width:95%" class="w3-hover-opacity">
+    <div class="w3-container w3-white">
+      <p style="text-align:center;margin:auto"><b>The Hunger Games 飢餓遊戲 (2008)</b></p>
+    </div>
+  </div>
+  <!-- 圖片 2 -->
+  <div class="w3-third w3-container w3-margin-bottom">
+    <img src="https://m.media-amazon.com/images/I/71e9wjuvcJL._AC_UF1000,1000_QL80_.jpg" alt="Catching Fire 星火燎原 (2009)" style="width:97%" class="w3-hover-opacity">
+    <div class="w3-container w3-white">
+      <p style="text-align:center;margin:auto"><b>Catching Fire 星火燎原 (2009)</b></p>
+    </div>
+  </div>
+
+  <!-- 圖片 3 -->
+  <div class="w3-third w3-container w3-margin-bottom">
+    <img src="https://m.media-amazon.com/images/I/51XZ1AO-6nL._AC_UF1000,1000_QL80_DpWeblab_.jpg" alt="Mockingjay 自由幻夢 (2010)" style="width:95%" class="w3-hover-opacity">
+    <div class="w3-container w3-white">
+      <p style="text-align:center;margin:auto"><b>Mockingjay 自由幻夢 (2010)</b></p>
+    </div> 
+  </div>
+ </div>
+<!-- 第一個類似小說 -->
+<h2 style="color: #800000; font-weight:bold;">Ender's Game 戰爭遊戲 (1985) by Orson Scott Card</h2>
+<div class="w3-row w3-margin-top">
+  <div class="w3-col m4 l4"><br>
+    <img src="https://upload.wikimedia.org/wikipedia/en/e/e4/Ender%27s_game_cover_ISBN_0312932081.jpg" style="width:100%" alt="Ender's Game">
+  </div>
+  <div class="w3-col m8 l8 w3-container">
+    <p class="w3-xlarge">The story describes a future where the Earth is threatened with attack by alien creatures. The protagonist is a gifted teenager who is sent to a combat school for training in order to enable humans to have the power to fight against alien creatures. The protagonist underwent rigorous, psychologically manipulative training, during which he was excluded and bullied, but he also gradually grew into an excellent commander.</p>
+    <p class="w3-xlarge">故事描寫未來地球面臨外星生物的攻擊威脅，主角是一位天資聰穎的少年，他被送往戰鬥學校訓練，目的讓人類能對外星生物有抗衡的力量。主角經歷了嚴苛的、心理操控式的訓練，過程他經歷了排擠欺負，但也逐漸成長成了一位優秀的指揮官。</p>
+  </div>
+</div>
+
+<!-- 第二個類似小說 -->
+<br>
+<h2 style="color: #800000; font-weight:bold;">Divergent 分歧者 (2011) by Veronica Roth</h2>
+<div class="w3-row w3-margin-top">
+  <div class="w3-col m4 l4"><br>
+    <img src="https://m.media-amazon.com/images/I/81cdQvmsz8L._UF1000,1000_QL80_.jpg" style="width:100%" alt="Divergent 分歧者">
+  </div>
+  <div class="w3-col m8 l8 w3-container">
+    <p class="w3-xlarge">The story is set in Chicago of the future. In order to prevent war and chaos, human society divides people into five factions when they turn 16. Each faction has representative qualities and virtues, and everyone can only be loyal to one faction throughout their life. During the faction selection test, the protagonist discovered that he possessed characteristics of multiple factions—that is, he could not be classified as a single faction and was called a divergent. This trait is seen as a threat because divergents have the ability to think more freely and are not easy to control.</p>
+    <p class="w3-xlarge">故事設定在未來的芝加哥，人類社會為了防止戰爭和混亂而在每人滿16歲時把人分成五個派系，每個派系皆有代表的品格及美德，而每人一生都只能效忠於一個派系。主角在選擇派系的測試中發現自己具備多個派系的特質—也就是無法被定調為單一派系，被稱作為分歧者。這種特質被視為威脅，因為分岐者擁有更自由的思考能力，不易被控制。</p>
+  </div>
+</div>
+
+<!-- 第三個類似小說 -->
+<h2 style="color: #800000; font-weight:bold;">The Maze Runner 移動迷宮 (2009) by James Smith Dashner</h2>
+<div class="w3-row w3-margin-top">
+  <div class="w3-col m4 l4"><br>
+    <img src="https://m.media-amazon.com/images/I/71fwo9096LL.jpg" style="width:100%" alt="The Maze Runner 移動迷宮">
+  </div>
+  <div class="w3-col m8 l8 w3-container">
+    <p class="w3-xlarge">Thomas wakes up with no memory in a mysterious community of boys trapped in the Glade.Surrounded by a shifting, deadly maze, the boys rely on “Runners” to explore and find an escape.Thomas joins the Runners and begins uncovering secrets about the maze and their captivity.As his memories return, he discovers a deeper connection to the maze and its dangers.Together, they must work to survive and find a way out before it’s too late.</p>
+    <p class="w3-xlarge">托馬斯醒來時失去記憶，被帶到一群男孩組成的神秘社區——格雷德。他們被一座不斷變換、充滿致命危險的迷宮包圍，依靠「跑者」探索並尋找逃脫之路。
+托馬斯加入跑者，開始揭開迷宮和囚禁秘密。隨著記憶恢復，他發現自己與迷宮及其危險有著更深的聯繫。他們必須齊心協力，努力求生，並在為時未晚前找到逃出的道路。</p>
+  </div>
+</div>
+
+<!-- 第四個類似小說 -->
+<h2 style="color: #800000; font-weight:bold;">The Giver 記憶傳授人 (1993) by Lois Lowry</h2>
+<div class="w3-row w3-margin-top">
+  <div class="w3-col m4 l4"><br>
+    <img src="https://m.media-amazon.com/images/I/71cJ7+UHpUL._AC_UF1000,1000_QL80_.jpg" style="width:100%" alt="The Giver 記憶傳授人">
+  </div>
+  <div class="w3-col m8 l8 w3-container">
+    <p class="w3-xlarge">Jonas, a 12-year-old boy, is chosen to become the Receiver of Memory.He inherits all the memories of the world before “Sameness,” a society without pain or choice.As he learns about emotions, colors, and history, Jonas begins to see the flaws in his controlled community.The burden of these memories forces him to question the rules and search for freedom.Jonas must decide whether to accept this new knowledge or try to change his world.
+</p>
+    <p class="w3-xlarge">12 歲的男孩喬納斯被選中成為記憶接收者。他繼承了「同質化」之前世界的所有記憶，那是一個沒有痛苦和選擇的社會。
+隨著他學習情感、顏色和歷史，喬納斯開始看清受控社區的缺陷。這些記憶的重擔迫使他質疑規則並尋求自由。喬納斯必須決定是接受這些新知識，還是嘗試改變他的世界。</p>
+  </div>
+</div>
+
+
+<!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p></div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
